@@ -14,19 +14,19 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "QuranBot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "MUSICBOT")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1260465030").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "2107933548").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Tepthonee/QuranBot")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/33yyllcc/AMEERMUSIC")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/T8OTT")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/PPF22")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/V333T")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/FFVRFF")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
